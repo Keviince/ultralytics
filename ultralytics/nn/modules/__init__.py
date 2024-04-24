@@ -76,6 +76,8 @@ from .transformer import (
     TransformerLayer,
 )
 
+from .BoTNet import (CustomBottleneck)
+
 __all__ = (
     "Conv",
     "Conv2",
@@ -135,4 +137,5 @@ __all__ = (
     "CBFuse",
     "CBLinear",
     "Silence",
+    "CustomBottleneck",
 )
